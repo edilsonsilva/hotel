@@ -9,3 +9,35 @@ body{
     width: 100vw;
     padding: 0 !important;
 }
+footer .card{
+    background-color: rgb(27, 35, 41) !important;
+    border-radius: 0;
+}
+footer .card-body{
+    height: 200px;
+    text-align: center;
+    color:rgba(255,255,255, 0.8) !important;
+    
+}
+
+footer .card-body a{
+    color:rgba(255,255,255, 0.8) !important;
+    text-decoration: none;
+}
+
+
+
+footer .card-header{
+    background-color: rgb(17, 25, 31) !important;
+    text-align: center;
+}
+footer .card-header a{
+    text-decoration: none;
+    color:white;
+    margin:0 10px;
+    font-size:20px
+}
+
+footer .card-header a:hover{
+    color:red
+}
