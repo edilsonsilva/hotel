@@ -41,3 +41,51 @@ footer .card-header a{
 footer .card-header a:hover{
     color:red
 }
+
+main .row{
+    padding: 0 100px !important;
+}
+
+main h2{
+    margin: 30px 100px 60px 100px;
+}
+main table, main table tr, main table tr td, main table tr th{
+    border:1px solid black
+}
+main table td{
+    padding:5px !important;
+}
+main table th{
+    text-align: center;
+}
+main table td h3{
+    text-align: center;
+}
+main table{
+    margin: 50px auto 100px auto;
+}
+main table tr{
+    transition: ease 1s;
+}
+main table tr:hover{
+    background-color: grey;
+    cursor: pointer;
+}
+.titulo-tarifas{
+    background-color: rgb(173, 193, 248);
+}
+main form{
+    margin:50px auto !important;
+    width: 80% !important;
+    padding: 10px !important;
+    border: 1px solid silver;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+main form textarea{
+    resize: none;/*bloquear o redimensionamento da caixa de observacao*/
+}
+main form button{
+    display: block !important;
+    margin: 20px auto !important;
+}
